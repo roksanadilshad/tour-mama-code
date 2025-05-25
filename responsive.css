@@ -1,0 +1,98 @@
+/* laptop device 
+size=1025px*/
+@media screen and (max-width:1200px){
+.bannner-content h1{
+    font-size: 48px;
+    
+}
+.service-card h2{
+    font-size: 20px;
+}
+.service-card{
+    padding:10px;
+}
+.bannner-content{
+    text-align: center;
+}
+.btn, .btn-white{
+    padding: 12px 20px;
+}
+.review-star{
+   flex-direction: column;
+    align-items: center;
+}
+.reviewer{
+    margin-right:0;
+}
+#footer{
+    padding: 7px 80px;
+}
+}
+/* tablet device 
+size=641px*/
+@media screen and (max-width:1024px){
+    #banner{
+    
+     align-items: center;
+     flex-direction: column-reverse;
+    }
+    .bannner-content{
+   width: 100%;
+}
+   .banner-img{
+    width: 100%;
+}
+.service-card-container{
+    flex-direction: column;
+    align-items: center;
+}
+.service-card{
+    padding:5px;
+    width: 380px;
+    margin: 20px;
+   
+}
+.head-content h4{
+    font-size: 18px;
+}
+.head-content h2{
+    font-size: 32px;
+}
+.story-card{
+    flex-direction: column;
+    text-align: center;
+}
+.story-card-content{
+    width: 100%;
+}
+.story-card img{
+    width: 100%;
+}
+.story-card-content img{
+    width: 100px;
+}
+#footer{
+    padding: 5px 60px;
+}
+.footer-icon i{
+    
+    padding: 3px;
+    font-size:14px ;
+    
+}
+
+}
+/* mobile device 
+size=425*/
+@media screen and (max-width:640px){
+.bannner-content h1{
+    font-size: 38px;
+    
+}
+.service-card-container{
+    flex-direction: column;
+}
+#footer{
+    padding: 3px 20px;
+}
+}

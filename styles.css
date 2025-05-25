@@ -3,6 +3,10 @@
     padding: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+img{
+    width: 100%;
+}
+
 body{
     min-height: 100vh;
     background:linear-gradient(#FFFFFF, #EBDCFF) ;
@@ -24,11 +28,12 @@ body{
 .bannner-content{
    width: 50%;
 }
+.banner-img{
+    width: 50%;
+}
 .bannner-content h1{
     font-size: 70px;
     font-weight: bold;
-    line-height: auto;
-
 }
 .bannner-content h1 span{
     color:#F411CF ;
@@ -49,6 +54,7 @@ button{
     background-color:#872BFF ;
     color: #FFFFFF;
     border: 1px solid #872BFF;
+    margin: 10px;
 
 }
 .btn-white{
@@ -57,8 +63,8 @@ button{
     background-color: #FFFFFF;
     border: 1px solid #872BFF;
 }
-.banner-img{
-    width: 600px;
+
+.banner-img img{
     height: 598px;
     margin-bottom: 20px;
     
@@ -92,31 +98,38 @@ button{
     border-radius: 30px;
     background-color: #FDFFFF;
     text-align: center;
-    width: 350px;
+    width: 280px;
     padding:40px;
-    height: 209px;
     
 }
 .service-card img{
     margin-bottom: 30px;
+    width: 80px;
 
 }
 .service-card h2{
     font-size: 28px;
     font-weight: semibold;
-    margin-bottom: 10px;
+    margin: 20px 10px;
 
 }
 .service-card p{
     color:#A8A8A8 ;
     line-height: 30px;
     font-size: 18px;
+    margin-bottom: 30px;
 
 }
 #stories{
         width: 87.5%;
         margin: 0 auto 120px auto;
         margin-top: 120px;
+}
+.story-card img{
+    width: 40%;
+}
+.story-card-content img{
+    width: 100px;
 }
 .story-card{
     display: flex;
@@ -127,6 +140,9 @@ button{
     text-align: left;
     padding: 48px;
     gap: 32px;
+}
+.story-card-content{
+    width: 60%;
 }
 .story-card-content h2{
    font-size: 32px;
@@ -162,4 +178,53 @@ button{
 }
 .explore-btn{
     text-align: center;
+}
+
+#review{
+     width: 87.5%;
+        margin: 0 auto 120px auto;
+}
+.review-box-1{
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 50px;
+}
+.review-box-1 p{
+    color:#A8A8A8 ;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px;
+}
+.review-star{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.review-star p{
+   padding-bottom: 10px;
+    padding-top:2px ;
+}
+.reviewer{
+    margin-right: 350px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px 150px;
+}
+.footer-icon i{
+    color: #FFFFFF;
+    border-radius: 50%;
+    background-color: #872BFF;
+    padding: 5px;
+    font-size:16px ;
+    font-weight: bold;
+    margin: 5px;
+}
+#footer p{
+   font-size: 14px;
+   color: #A8A8A8;
 }
