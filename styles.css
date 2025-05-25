@@ -140,6 +140,7 @@ button{
     text-align: left;
     padding: 48px;
     gap: 32px;
+    margin-bottom: 40px;
 }
 .story-card-content{
     width: 60%;
